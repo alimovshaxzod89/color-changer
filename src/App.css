@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+h1,
+h2 {
+  margin-bottom: 20px;
+}
+
+.color-selector {
+  margin-bottom: 30px;
+}
+
+.colors {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.history {
+  margin: 20px;
+}
+
+.history ul {
+  padding: 0;
+}
+
+.history li {
+  margin: 5px 0;
+}

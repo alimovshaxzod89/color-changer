@@ -1,0 +1,14 @@
+.forBackground{
+    margin: 0 auto;
+}
+
+.colors{
+    display: flex;
+}
+
+.round{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+}
